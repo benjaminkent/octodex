@@ -32,6 +32,13 @@ li a {
   text-decoration: none;
 }
 
+footer {
+  text-align: center;
+  border-top: 1px solid #cacaca;
+  padding: 5px 0;
+  margin-top: 50px;
+}
+
 img.main-image {
   height: 424px;
   width: 424px;
@@ -42,6 +49,10 @@ img.main-image {
 .logo img {
   padding: 5px 0 0 20px;
   height: 22px;
+}
+
+.footer-logo img {
+  height: 15px;
 }
 
 .cat-element {
@@ -62,6 +73,7 @@ img.main-image {
   font-size: 16px;
   font-weight: bold;
   color: #777777;
+  margin-bottom: 20px;
 }
 
 .number {
