@@ -35,8 +35,14 @@ li a {
 img.main-image {
   height: 424px;
   width: 424px;
+  border: 2px solid black;
 }
 
-p.image {
+.logo img {
   padding: 5px 0 0 20px;
+  height: 22px;
+}
+
+.cat-element {
+  margin: 10px;
 }
