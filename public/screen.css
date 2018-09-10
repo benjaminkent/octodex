@@ -35,7 +35,8 @@ li a {
 img.main-image {
   height: 424px;
   width: 424px;
-  border: 2px solid black;
+  border: 1px solid #cacaca;
+  border-radius: 3px;
 }
 
 .logo img {
@@ -45,4 +46,32 @@ img.main-image {
 
 .cat-element {
   margin: 10px;
+  width: 424px;
+}
+
+.author-icon {
+  width: 28px;
+  height: 28px;
+}
+
+.image-footer {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cacaca;
+  font-size: 16px;
+  font-weight: bold;
+  color: #777777;
+}
+
+.number {
+  color: #cacaca;
+}
+
+.image-footer a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.underline {
+  line-height: 1px;
 }
