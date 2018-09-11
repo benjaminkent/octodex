@@ -103,11 +103,16 @@ img.main-image {
     width: 100%;
   }
 
+  nav {
+    margin: 0 auto;
+  }
+
   ul {
     margin: 0 auto;
     padding: 0;
     display: flex;
     justify-content: center;
+    width: 200px;
   }
 
   img.main-image {
@@ -117,9 +122,15 @@ img.main-image {
     border-radius: 3px;
   }
 
+  img.header-logo {
+    padding: 7px 0 0 0;
+
+  }
+
   p.logo {
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
+    width
   }
 
   div.top-image {
