@@ -99,7 +99,8 @@ img.main-image {
   header {
     padding-bottom: 10px;
     display: block;
-    margin-bottom: 20px;
+    position: fixed;
+    width: 100%;
   }
 
   ul {
@@ -110,8 +111,8 @@ img.main-image {
   }
 
   img.main-image {
-    height: 300px;
-    width: 300px;
+    height: 100%;
+    width: 100%;
     border: 1px solid #cacaca;
     border-radius: 3px;
   }
@@ -121,9 +122,12 @@ img.main-image {
     text-align: center;
   }
 
+  div.top-image {
+    margin-top: 80px;
+  }
+
   .cat-element {
     margin: 10px auto 0 auto;
-    width: 300px;
-    display: block;
+    width: 80%;
   }
 }
