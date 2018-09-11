@@ -80,6 +80,7 @@ img.main-image {
   font-weight: bold;
   color: #777777;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 .number {
